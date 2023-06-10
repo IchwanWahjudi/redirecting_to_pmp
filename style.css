@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+:root {
+	--bg: salmon;
+	--roboto: "Roboto Condensed", sans-serif;
+	--poppins: "Poppins", sans-serif;
+}
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container .main {
+	font-family: var(--roboto);
+	text-align: center;
+	justify-items: center;
+	position: absolute;
+	line-height: 2rem;
+	border: none;
+	border-radius: 1rem;
+	background-color: rgba(245, 245, 220, 0.5);
+	padding: 1rem 5%;
+}
+.container .background {
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+}
