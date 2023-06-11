@@ -12,5 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.pratamamajuperkasa.com
-        username: pratamam
+        username: redirecting@pratamamajuperkasa.com
         password: ${{ IKGN2s]_$;Wt }}
