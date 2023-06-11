@@ -42,11 +42,10 @@
 	animation-duration: 1.5s;
 	animation-name: fadeIn;
 }
-
 @keyframes fadeIn {
 	from {
 		opacity: 0;
-		transform: translateY(200px);
+		transform: translateY(300px);
 		margin: 0rem 7%;
 		font-family: var(--roboto);
 		flex-direction: column;
@@ -74,5 +73,13 @@
 		border-radius: 1rem;
 		background-color: rgba(245, 245, 220, 0.4);
 		padding: 1rem 5%;
+	}
+}
+@media (max-width: 900px) {
+	html {
+		font-size: 85%;
+	}
+	.container .main img {
+		zoom: 80%;
 	}
 }
