@@ -5,3 +5,4 @@ setInterval(() => {
 	count--;
 	if (count < 1) location.replace("https://pratamamajuperkasa.co.id/");
 }, 1000);
+// trial
